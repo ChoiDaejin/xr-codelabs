@@ -25,6 +25,7 @@ import com.example.android.xrfundamentals.ui.theme.XRFundamentalsTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
         setContent {
             XRFundamentalsTheme {
